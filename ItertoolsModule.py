@@ -1,9 +1,11 @@
 from ast import Break
 import itertools
 
+#count
 # print(dir(itertools))
 #start,step of count:Endless!
-for i in itertools.count(0,8):
-    if i>10:
-       Break
-    print(i,end="")
+for i in itertools.count(0,2):
+    if i>50:
+       break
+    print(i,end=" ")
+    
